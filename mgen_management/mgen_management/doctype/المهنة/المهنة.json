@@ -15,16 +15,18 @@
    "in_list_view": 1,
    "label": "المهنة",
    "reqd": 1,
-   "unique": 1
+   "unique": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-28 23:16:53.000000",
+ "modified": "2025-01-28 23:25:40.000000",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "المهنة",
  "name_case": "",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -40,7 +42,10 @@
    "write": 1
   }
  ],
+ "search_fields": "profession",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "profession"
 }
