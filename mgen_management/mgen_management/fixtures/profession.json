@@ -1,0 +1,162 @@
+[
+ {
+  "doctype": "Profession",
+  "name": "التدريس الابتدائي",
+  "profession_name": "التدريس الابتدائي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "التدريس الإعدادي",
+  "profession_name": "التدريس الإعدادي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "التدريس التأهيلي",
+  "profession_name": "التدريس التأهيلي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "متصرف تربوي",
+  "profession_name": "متصرف تربوي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "متصرف وزارة التربية الوطنية",
+  "profession_name": "متصرف وزارة التربية الوطنية"
+ },
+ {
+  "doctype": "Profession",
+  "name": "متصرف الأطر المشتركة",
+  "profession_name": "متصرف الأطر المشتركة"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مختص الإدارة والاقتصاد",
+  "profession_name": "مختص الإدارة والاقتصاد"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مختص تربوي",
+  "profession_name": "مختص تربوي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مختص اجتماعي",
+  "profession_name": "مختص اجتماعي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مستشار في التوجيه",
+  "profession_name": "مستشار في التوجيه"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مستشار في التخطيط",
+  "profession_name": "مستشار في التخطيط"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مفتش ابتدائي",
+  "profession_name": "مفتش ابتدائي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مفتش ثانوي",
+  "profession_name": "مفتش ثانوي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مفتش في التوجيه",
+  "profession_name": "مفتش في التوجيه"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مفتش في التخطيط",
+  "profession_name": "مفتش في التخطيط"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مفتش المصالح المالية والمادية",
+  "profession_name": "مفتش المصالح المالية والمادية"
+ },
+ {
+  "doctype": "Profession",
+  "name": "ممون",
+  "profession_name": "ممون"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مساعد تربوي",
+  "profession_name": "مساعد تربوي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "تقني",
+  "profession_name": "تقني"
+ },
+ {
+  "doctype": "Profession",
+  "name": "طبيب",
+  "profession_name": "طبيب"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مبرز",
+  "profession_name": "مبرز"
+ },
+ {
+  "doctype": "Profession",
+  "name": "محرر",
+  "profession_name": "محرر"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مدير",
+  "profession_name": "مدير"
+ },
+ {
+  "doctype": "Profession",
+  "name": "ناظر",
+  "profession_name": "ناظر"
+ },
+ {
+  "doctype": "Profession",
+  "name": "حارس عام",
+  "profession_name": "حارس عام"
+ },
+ {
+  "doctype": "Profession",
+  "name": "متفرغ",
+  "profession_name": "متفرغ"
+ },
+ {
+  "doctype": "Profession",
+  "name": "متصرف",
+  "profession_name": "متصرف"
+ },
+ {
+  "doctype": "Profession",
+  "name": "إطار تربوي",
+  "profession_name": "إطار تربوي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "إطار اجتماعي",
+  "profession_name": "إطار اجتماعي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "إطار التعليم العالي",
+  "profession_name": "إطار التعليم العالي"
+ },
+ {
+  "doctype": "Profession",
+  "name": "إطار الإدارة والاقتصاد",
+  "profession_name": "إطار الإدارة والاقتصاد"
+ },
+ {
+  "doctype": "Profession",
+  "name": "مهندس",
+  "profession_name": "مهندس"
+ }
+]

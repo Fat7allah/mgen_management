@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:profession_name",
+ "creation": "2025-01-28 23:34:26.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profession_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "profession_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "المهنة",
+   "reqd": 1,
+   "unique": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-28 23:34:26.000000",
+ "modified_by": "Administrator",
+ "module": "Mgen Management",
+ "name": "Profession",
+ "name_case": "",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "profession_name",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "profession_name"
+}
