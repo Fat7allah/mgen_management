@@ -8,8 +8,6 @@ app_license = "MIT"
 fixtures = [
     {
         "doctype": "Profession",
-        "filters": [
-            ["name", "like", "%"]
-        ]
+        "filters": [["doctype", "=", "Profession"]]
     }
 ]
