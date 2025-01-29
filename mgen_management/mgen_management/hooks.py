@@ -21,5 +21,9 @@ fixtures = [
     {
         "doctype": "Region",
         "filters": [["doctype", "=", "Region"]]
+    },
+    {
+        "doctype": "Province",
+        "filters": [["doctype", "=", "Province"]]
     }
 ]
