@@ -85,30 +85,60 @@ def get_data(filters):
         if filters.get("academic_year"):
             conditions += f" AND academic_year = '{filters.get('academic_year')}'"
 
-    # Get income data for cards
-    income_data = frappe.db.sql(f"""
+    # Get expense data for cards (total cards and amount)
+    expense_data = frappe.db.sql(f"""
         SELECT 
             region,
             province,
             academic_year,
             SUM(quantity) as cards_count,
+            SUM(amount) as total_amount
+        FROM `tabExpense`
+        {conditions}
+        GROUP BY region, province, academic_year
+    """, as_dict=1)
+
+    # Get income data for cards (paid amount)
+    income_data = frappe.db.sql(f"""
+        SELECT 
+            region,
+            province,
+            academic_year,
             SUM(amount) as paid_amount
         FROM `tabIncome`
         {conditions}
         GROUP BY region, province, academic_year
     """, as_dict=1)
 
-    # Calculate derived values
+    # Create a dictionary to easily lookup income data
+    income_lookup = {}
     for row in income_data:
-        # Total amount (cards_count * 100 MAD)
-        row.total_amount = row.cards_count * 100
-        
-        # Remaining amount
-        row.remaining_amount = row.total_amount - row.paid_amount
-        
-        # Share calculations
-        row.office_share = row.total_amount * 0.5  # 50%
-        row.region_share = row.total_amount * 0.2  # 20%
-        row.province_share = row.total_amount * 0.3  # 30%
+        key = (row.region, row.province, row.academic_year)
+        income_lookup[key] = row.paid_amount
 
-    return income_data
+    # Combine data and calculate derived values
+    result = []
+    for row in expense_data:
+        key = (row.region, row.province, row.academic_year)
+        paid_amount = income_lookup.get(key, 0)
+        
+        # Calculate remaining and shares
+        remaining_amount = row.total_amount - paid_amount
+        office_share = row.total_amount * 0.5  # 50%
+        region_share = row.total_amount * 0.2  # 20%
+        province_share = row.total_amount * 0.3  # 30%
+
+        result.append({
+            "region": row.region,
+            "province": row.province,
+            "academic_year": row.academic_year,
+            "cards_count": row.cards_count,
+            "total_amount": row.total_amount,
+            "paid_amount": paid_amount,
+            "remaining_amount": remaining_amount,
+            "office_share": office_share,
+            "region_share": region_share,
+            "province_share": province_share
+        })
+
+    return result
