@@ -9,16 +9,10 @@ app_email = "fat7allah.habbani@gmail.com"
 app_license = "MIT"
 
 fixtures = [
-    {"dt": "DocType", "filters": [
-        [
-            "name", "in", [
-                "Profession",
-                "Specialization",
-                "Structure",
-                "Region",
-                "Province",
-                "Education Level"
-            ]
-        ]
-    ]}
+    {"dt": "Profession"},
+    {"dt": "Specialization"},
+    {"dt": "Structure"},
+    {"dt": "Region"},
+    {"dt": "Province"},
+    {"dt": "Education Level"}
 ]
