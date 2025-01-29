@@ -9,5 +9,9 @@ fixtures = [
     {
         "doctype": "Profession",
         "filters": [["doctype", "=", "Profession"]]
+    },
+    {
+        "doctype": "Specialization",
+        "filters": [["doctype", "=", "Specialization"]]
     }
 ]
