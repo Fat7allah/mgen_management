@@ -1,0 +1,22 @@
+[
+    {
+        "doctype": "Education Level",
+        "name": "EDU-001",
+        "education_level_name": "بكالوريا"
+    },
+    {
+        "doctype": "Education Level",
+        "name": "EDU-002",
+        "education_level_name": "إجازة"
+    },
+    {
+        "doctype": "Education Level",
+        "name": "EDU-003",
+        "education_level_name": "ماستر"
+    },
+    {
+        "doctype": "Education Level",
+        "name": "EDU-004",
+        "education_level_name": "دكتوراة"
+    }
+]
