@@ -1,1 +1,134 @@
-[]
+[
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 1,
+        "name": "جهة طنجة تطوان الحسيمة",
+        "region_name": "جهة طنجة تطوان الحسيمة"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 2,
+        "name": "جهة الشرق",
+        "region_name": "جهة الشرق"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 3,
+        "name": "جهة فاس مكناس",
+        "region_name": "جهة فاس مكناس"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 4,
+        "name": "جهة الرباط سلا القنيطرة",
+        "region_name": "جهة الرباط سلا القنيطرة"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 5,
+        "name": "جهة بني ملال خنيفرة",
+        "region_name": "جهة بني ملال خنيفرة"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 6,
+        "name": "جهة الدار البيضاء سطات",
+        "region_name": "جهة الدار البيضاء سطات"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 7,
+        "name": "جهة مراكش آسفي",
+        "region_name": "جهة مراكش آسفي"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 8,
+        "name": "جهة درعة تافيلالت",
+        "region_name": "جهة درعة تافيلالت"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 9,
+        "name": "جهة سوس ماسة",
+        "region_name": "جهة سوس ماسة"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 10,
+        "name": "جهة كلميم واد نون",
+        "region_name": "جهة كلميم واد نون"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 11,
+        "name": "جهة العيون الساقية الحمراء",
+        "region_name": "جهة العيون الساقية الحمراء"
+    },
+    {
+        "doctype": "Region",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 21:56:48.000000",
+        "modified": "2025-01-29 21:56:48.000000",
+        "idx": 12,
+        "name": "جهة الداخلة وادي الذهب",
+        "region_name": "جهة الداخلة وادي الذهب"
+    }
+]

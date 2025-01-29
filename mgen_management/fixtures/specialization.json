@@ -1,1 +1,156 @@
-[]
+[
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 1,
+        "name": "الرياضيات",
+        "specialization_name": "الرياضيات"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 2,
+        "name": "الفيزياء الكيمياء",
+        "specialization_name": "الفيزياء الكيمياء"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 3,
+        "name": "علوم الارض",
+        "specialization_name": "علوم الارض"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 4,
+        "name": "الاعلاميات",
+        "specialization_name": "الاعلاميات"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 5,
+        "name": "العربية",
+        "specialization_name": "العربية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 6,
+        "name": "الفرنسية",
+        "specialization_name": "الفرنسية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 7,
+        "name": "الإنجليزية",
+        "specialization_name": "الإنجليزية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 8,
+        "name": "الاجتماعيات والجغرافيا",
+        "specialization_name": "الاجتماعيات والجغرافيا"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 9,
+        "name": "التربية الاسلامية",
+        "specialization_name": "التربية الاسلامية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 10,
+        "name": "الفلسفة",
+        "specialization_name": "الفلسفة"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 11,
+        "name": "الاقتصاد",
+        "specialization_name": "الاقتصاد"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 12,
+        "name": "أنشطة علمية",
+        "specialization_name": "أنشطة علمية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 13,
+        "name": "التربية الفنية",
+        "specialization_name": "التربية الفنية"
+    },
+    {
+        "doctype": "Specialization",
+        "docstatus": 0,
+        "owner": "Administrator",
+        "modified_by": "Administrator",
+        "creation": "2025-01-29 19:05:38.000000",
+        "modified": "2025-01-29 19:05:38.000000",
+        "idx": 14,
+        "name": "التربية البدنية",
+        "specialization_name": "التربية البدنية"
+    }
+]
