@@ -2,12 +2,12 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "PROV-.####",
- "creation": "2025-01-29 22:04:54.000000",
+ "creation": "2025-01-29 22:04:54",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "province_name",
-  "region"
+  "region",
+  "province_name"
  ],
  "fields": [
   {
@@ -29,7 +29,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-29 22:04:54.000000",
+ "modified": "2025-01-29 22:11:17.846013",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Province",
