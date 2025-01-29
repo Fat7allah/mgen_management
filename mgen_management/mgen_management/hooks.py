@@ -1,25 +1,15 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+from . import __version__ as app_version
+
 app_name = "mgen_management"
 app_title = "Mgen Management"
-app_publisher = "fat7allah"
+app_publisher = "Fat7allah"
 app_description = "Mgen Management"
-app_email = "yassine.fat7allah@gmail.com"
-app_license = "mit"
-
-# Apps
-# ------------------
-
-# required_apps = []
-
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "mgen_management",
-# 		"logo": "/assets/mgen_management/logo.png",
-# 		"title": "Mgen Management",
-# 		"route": "/mgen_management",
-# 		"has_permission": "mgen_management.api.permission.has_app_permission"
-# 	}
-# ]
+app_icon = "octicon octicon-file-directory"
+app_color = "grey"
+app_email = "fat7allah.habbani@gmail.com"
+app_license = "MIT"
 
 # Includes in <head>
 # ------------------
@@ -48,11 +38,6 @@ app_license = "mit"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
-# Svg Icons
-# ------------------
-# include app icons in desk
-# app_include_icons = "mgen_management/public/icons.svg"
-
 # Home Pages
 # ----------
 
@@ -61,7 +46,7 @@ app_license = "mit"
 
 # website user home page (by Role)
 # role_home_page = {
-# 	"Role": "home_page"
+#	"Role": "home_page"
 # }
 
 # Generators
@@ -69,15 +54,6 @@ app_license = "mit"
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
-
-# Jinja
-# ----------
-
-# add methods and filters to jinja environment
-# jinja = {
-# 	"methods": "mgen_management.utils.jinja_methods",
-# 	"filters": "mgen_management.utils.jinja_filters"
-# }
 
 # Installation
 # ------------
@@ -118,11 +94,11 @@ app_license = "mit"
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+#	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # DocType Class
@@ -130,7 +106,7 @@ app_license = "mit"
 # Override standard doctype classes
 
 # override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
+#	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
 # Document Events
@@ -138,32 +114,32 @@ app_license = "mit"
 # Hook on document methods and events
 
 # doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
+#	"*": {
+#		"on_update": "method",
+#		"on_cancel": "method",
+#		"on_trash": "method"
+#	}
 # }
 
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
-# 	"all": [
-# 		"mgen_management.tasks.all"
-# 	],
-# 	"daily": [
-# 		"mgen_management.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"mgen_management.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"mgen_management.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"mgen_management.tasks.monthly"
-# 	],
+#	"all": [
+#		"mgen_management.tasks.all"
+#	],
+#	"daily": [
+#		"mgen_management.tasks.daily"
+#	],
+#	"hourly": [
+#		"mgen_management.tasks.hourly"
+#	],
+#	"weekly": [
+#		"mgen_management.tasks.weekly"
+#	]
+#	"monthly": [
+#		"mgen_management.tasks.monthly"
+#	]
 # }
 
 # Testing
@@ -175,24 +151,19 @@ app_license = "mit"
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "mgen_management.event.get_events"
+#	"frappe.desk.doctype.event.event.get_events": "mgen_management.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "mgen_management.task.get_dashboard_data"
+#	"Task": "mgen_management.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
-
-# Ignore links to specified DocTypes when deleting documents
-# -----------------------------------------------------------
-
-# ignore_links_on_delete = ["Communication", "ToDo"]
 
 # Request Events
 # ----------------
@@ -232,15 +203,8 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"mgen_management.auth.validate"
+#	"mgen_management.auth.validate"
 # ]
-
-# Automatically update python controller files with type annotations for this app.
-# export_python_type_annotations = True
-
-# default_log_clearing_doctypes = {
-# 	"Logging DocType Name": 30  # days to retain logs
-# }
 
 fixtures = [
     {"dt": "DocType", "filters": [
