@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "EDU-.####",
+ "autoname": "field:education_level_name",
  "creation": "2025-01-29 22:17:16",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -20,11 +20,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-29 22:17:16",
+ "modified": "2025-01-29 22:33:09",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Education Level",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

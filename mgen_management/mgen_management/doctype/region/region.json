@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "REG-.####",
+ "autoname": "field:region_name",
  "creation": "2025-01-29 21:56:48.000000",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -24,7 +24,7 @@
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Region",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

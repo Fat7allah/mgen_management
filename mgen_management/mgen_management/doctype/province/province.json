@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "PROV-.####",
+ "autoname": "field:province_name",
  "creation": "2025-01-29 22:04:54",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -29,11 +29,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-29 22:11:17.846013",
+ "modified": "2025-01-29 22:33:09",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Province",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
