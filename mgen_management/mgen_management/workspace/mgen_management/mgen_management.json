@@ -1,23 +1,25 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>MGEN Management</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Income\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>الإعدادات الأساسية</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Basic Settings\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>المعاملات</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Transactions\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>التقارير</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":12}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>MGEN Management</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Income\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>الإعدادات الأساسية</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"الإعدادات الأساسية\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>المعاملات</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"المعاملات\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>التقارير</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"التقارير\",\"col\":12}}]",
  "creation": "2025-01-30 14:43:36.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
+ "extends": "",
+ "extends_another_page": 0,
  "for_user": "",
  "hide_custom": 0,
  "icon": "education",
  "idx": 0,
- "indicator_color": "",
- "is_hidden": 0,
+ "is_default": 1,
+ "is_standard": 1,
  "label": "MGEN Management",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
    "label": "الإعدادات الأساسية",
-   "link_count": 0,
+   "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -85,7 +87,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "المعاملات",
-   "link_count": 0,
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -123,7 +125,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "التقارير",
-   "link_count": 0,
+   "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -138,14 +140,17 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-30 14:43:36.000000",
+ "modified": "2025-01-30 14:48:09.000000",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Mgen Management",
  "owner": "Administrator",
  "parent_page": "",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
  "public": 1,
  "quick_lists": [],
+ "restrict_to_domain": "",
  "roles": [
   {
    "role": "System Manager"
@@ -156,21 +161,21 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Members",
+   "label": "الأعضاء",
    "link_to": "Member",
    "type": "DocType"
   },
   {
    "color": "Green",
    "doc_view": "List",
-   "label": "Income",
+   "label": "المداخل",
    "link_to": "Income",
    "type": "DocType"
   },
   {
    "color": "Red",
    "doc_view": "List",
-   "label": "Expense",
+   "label": "المصارف",
    "link_to": "Expense",
    "type": "DocType"
   }
