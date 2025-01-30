@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>MGEN Management</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Income\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>الإعدادات الأساسية</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"الإعدادات الأساسية\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>المعاملات</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"المعاملات\",\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>التقارير</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"التقارير\",\"col\":12}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>MGEN Management</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Income\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>الإعدادات الأساسية</b></span>\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"الإعدادات الأساسية\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>المعاملات</b></span>\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"المعاملات\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>التقارير</b></span>\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"التقارير\",\"col\":4}}]",
  "creation": "2025-01-30 14:43:36.000000",
  "custom_blocks": [],
  "docstatus": 0,
@@ -140,7 +140,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-30 14:48:09.000000",
+ "modified": "2025-01-30 14:53:17.000000",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Mgen Management",
