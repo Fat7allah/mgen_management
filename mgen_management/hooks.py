@@ -9,6 +9,7 @@ app_email = "fat7allah.habbani@gmail.com"
 app_license = "MIT"
 
 fixtures = [
+    {"dt": "Role", "filters": [["name", "=", "Mgen Manager"]]},
     {"dt": "Profession"},
     {"dt": "Specialization"},
     {"dt": "Structure"},
