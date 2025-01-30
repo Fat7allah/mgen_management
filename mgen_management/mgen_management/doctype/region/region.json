@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:region_name",
- "creation": "2025-01-29 21:56:48.000000",
+ "creation": "2025-01-29 21:56:48",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -20,7 +20,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-29 21:56:48.000000",
+ "modified": "2025-01-30 21:20:17.015804",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Region",
@@ -36,6 +36,20 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Mgen Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   }
