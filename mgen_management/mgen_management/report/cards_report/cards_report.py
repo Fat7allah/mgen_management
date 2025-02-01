@@ -122,11 +122,13 @@ def get_data(filters):
         key = (row.region, row.province, row.academic_year)
         paid_amount = income_lookup.get(key, 0)
         
-        # Calculate remaining and shares
+        # Calculate remaining amount
         remaining_amount = row.total_amount - paid_amount
-        office_share = row.total_amount * 0.5  # 50%
-        region_share = row.total_amount * 0.2  # 20%
-        province_share = row.total_amount * 0.3  # 30%
+        
+        # Calculate shares from paid amount (income) instead of total amount
+        office_share = paid_amount * 0.5  # 50%
+        region_share = paid_amount * 0.2  # 20%
+        province_share = paid_amount * 0.3  # 30%
 
         result.append({
             "region": row.region,
