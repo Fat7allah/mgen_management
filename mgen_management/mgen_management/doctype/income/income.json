@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "INC-.####",
- "creation": "2025-01-30 00:36:45.000000",
+ "creation": "2025-01-30 00:36:45",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -24,29 +24,29 @@
    "fieldname": "type",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "النوع",
-   "options": "بطائق\nاخرى",
+   "label": "\u0627\u0644\u0646\u0648\u0639",
+   "options": "\u0628\u0637\u0627\u0626\u0642\n\u0627\u062e\u0631\u0649",
    "reqd": 1
   },
   {
    "fieldname": "description",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "الوصف",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0639\u0646\u064a",
    "reqd": 1
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "التاريخ",
+   "label": "\u0627\u0644\u062a\u0627\u0631\u064a\u062e",
    "reqd": 1
   },
   {
    "fieldname": "academic_year",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "الموسم الدراسي",
+   "label": "\u0627\u0644\u0645\u0648\u0633\u0645 \u0627\u0644\u062f\u0631\u0627\u0633\u064a",
    "reqd": 1
   },
   {
@@ -56,14 +56,14 @@
   {
    "fieldname": "region",
    "fieldtype": "Link",
-   "label": "الجهة",
+   "label": "\u0627\u0644\u062c\u0647\u0629",
    "options": "Region",
    "reqd": 1
   },
   {
    "fieldname": "province",
    "fieldtype": "Link",
-   "label": "الإقليم",
+   "label": "\u0627\u0644\u0625\u0642\u0644\u064a\u0645",
    "options": "Province",
    "reqd": 1
   },
@@ -74,33 +74,32 @@
   {
    "fieldname": "quantity",
    "fieldtype": "Int",
-   "label": "العدد",
+   "label": "\u0627\u0644\u0639\u062f\u062f",
    "reqd": 1
   },
   {
    "fieldname": "amount",
    "fieldtype": "Currency",
-   "label": "المبلغ",
+   "label": "\u0627\u0644\u0645\u0628\u0644\u063a",
    "reqd": 1
   },
   {
    "fieldname": "note_section",
    "fieldtype": "Section Break",
-   "label": "ملاحظات"
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
   },
   {
    "fieldname": "note",
    "fieldtype": "Text Editor",
-   "label": "ملاحظة"
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0629"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-30 00:36:45.000000",
+ "modified": "2025-02-05 22:27:06.566517",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Income",
- "name_case": "",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
