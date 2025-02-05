@@ -19,9 +19,19 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "الإعدادات الأساسية",
-   "link_count": 6,
+   "link_count": 7,
    "onboard": 0,
    "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "المواسم الدراسية",
+   "link_count": 0,
+   "link_to": "Academic Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
    "hidden": 0,
@@ -140,7 +150,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-30 15:01:54.000000",
+ "modified": "2025-02-05 22:52:36.000000",
  "modified_by": "Administrator",
  "module": "Mgen Management",
  "name": "Mgen Management",

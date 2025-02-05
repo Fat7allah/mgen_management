@@ -15,5 +15,6 @@ fixtures = [
     {"dt": "Structure"},
     {"dt": "Region"},
     {"dt": "Province"},
-    {"dt": "Education Level"}
+    {"dt": "Education Level"},
+    {"dt": "Academic Year"}
 ]
