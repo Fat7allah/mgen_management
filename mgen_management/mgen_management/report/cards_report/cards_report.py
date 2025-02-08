@@ -57,19 +57,19 @@ def get_columns():
         },
         {
             "fieldname": "office_share",
-            "label": _("حصة المكتب (50%)"),
+            "label": _("حصة الجامعة "),
             "fieldtype": "Currency",
             "width": 150
         },
         {
             "fieldname": "region_share",
-            "label": _("حصة الجهة (20%)"),
+            "label": _("حصة الجهة "),
             "fieldtype": "Currency",
             "width": 150
         },
         {
             "fieldname": "province_share",
-            "label": _("حصة الاقليم (30%)"),
+            "label": _("حصة الاقليم "),
             "fieldtype": "Currency",
             "width": 150
         }
@@ -125,10 +125,10 @@ def get_data(filters):
         # Calculate remaining amount
         remaining_amount = row.total_amount - paid_amount
         
-        # Calculate shares from paid amount (income) instead of total amount
-        office_share = paid_amount * 0.5  # 50%
-        region_share = paid_amount * 0.2  # 20%
-        province_share = paid_amount * 0.3  # 30%
+        # Calculate shares based on cards_count
+        office_share = row.cards_count * 50  # 50 MAD per card
+        region_share = row.cards_count * 20  # 20 MAD per card
+        province_share = row.cards_count * 30  # 30 MAD per card
 
         result.append({
             "region": row.region,

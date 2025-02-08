@@ -43,7 +43,7 @@ frappe.ui.form.on('Income', {
 });
 
 function calculate_amount(frm) {
-	// Calculate amount as quantity × 100
-	let amount = (frm.doc.quantity || 0) * 100;
+	// Calculate amount as quantity × 50
+	let amount = (frm.doc.quantity || 0) * 50;
 	frm.set_value('amount', amount);
 }
