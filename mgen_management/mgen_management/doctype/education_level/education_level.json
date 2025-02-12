@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:education_level_name",
  "creation": "2025-01-29 22:17:16",
